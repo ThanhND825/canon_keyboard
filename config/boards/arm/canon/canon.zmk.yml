@@ -1,0 +1,11 @@
+file_format: "1"
+id: canon
+name: canon
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+  - ble
+url: none
