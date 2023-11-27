@@ -5,9 +5,6 @@
 #include <dt-bindings/zmk/rgb.h>
 #define FN0 0
 #define FN1 1
-#define FN2 2
-#define FN3 3
-
 #define HYPER(key) LS(LC(LA(LG(key))))
 #define MEH(key)   LS(LC(LA(key)))
 
@@ -17,45 +14,23 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-                &kp ESC &kp A &kp A &kp A &kp A
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A
+                                                                                                                          &kp DEL &kp INS &kp PSCRN &kp SLCK &kp PAUSE_BREAK
+                &kp K_MUTE &kp ESC &kp N1  &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL &kp TILDE &kp BSPC       &kp HOME &kp UP &kp PG_UP 
+                &kp K_VOL_UP &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp LBKT &kp RBKT &kp BSLH                            &kp LEFT &kp HOME &kp RIGHT 
+                &kp K_VOL_DN &kp CLCK   &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI &kp SQT &kp A &kp RET                           &kp END &kp DOWN &kp PG_DN 
+                &kp LSHFT &mo 1 &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp A &kp RSHFT                                   &kp A &kp A 
+                &kp LCTRL &kp SPACE &kp RALT  &kp RCTRL                                                                                                &kp A &kp A
             >;
         };
 
         lower_layer {
             bindings = <
-                &kp ESC &kp A &kp A &kp A &kp A
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A
-            >;
-        };
-
-        raise_layer {
-            bindings = <
-                &kp ESC &kp A &kp A &kp A &kp A
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A
-            >;
-        };
-
-        adjust_layer {
-            bindings = <
-                &kp ESC &kp A &kp A &kp A &kp A
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
-                &kp A &kp A &kp A &kp A &kp A &kp A
+                                                                                                             &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
+                &out OUT_USB  &trans &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &trans &trans &trans &trans &kp    &bootloader 
+                &out OUT_BLE  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+                &trans &trans &trans &trans &trans &trans
             >;
         };
     };
