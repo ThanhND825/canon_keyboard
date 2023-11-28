@@ -18,7 +18,7 @@
                 &kp ESC   &kp TILDE   &kp N1    &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8    &kp N9  &kp N0   &kp MINUS &kp EQUAL &kp DEL &kp INS       &kp HOME &kp UP &kp PG_UP 
                 &mt C_VOL_UP C_MUTE &kp TAB   &kp Q     &kp W &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I     &kp O   &kp P    &kp LBKT  &kp RBKT  &kp BSLH                 &kp LEFT &kp C_AC_SEARCH &kp RIGHT 
                 &mt C_VOL_DN C_MUTE &mt LSHFT CLCK  &kp A     &kp S &kp D  &kp F  &kp G  &kp H  &kp J  &kp K     &kp L   &kp SEMI &kp SQT   &kp C_AC_SEARCH     &kp RET                  &kp END &kp DOWN &kp PG_DN 
-                &kp LCTRL    &kp BSPC     &kp Z     &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &kp RALT     &kp RSHFT                          &kp C_AC_BACK &kp C_AC_FORWARD 
+                &mt LCTRL BSPC    &kp K_CMENU     &kp Z     &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &kp RALT     &kp RSHFT                          &kp C_AC_BACK &kp C_AC_FORWARD 
                 &mt LCMD DEL    &kp SPACE &mt LSHFT RET   &mo 1                                                                                                                    &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS
             >;
         };
