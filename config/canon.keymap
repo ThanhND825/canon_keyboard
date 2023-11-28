@@ -19,7 +19,7 @@
                 &mt C_VOL_UP C_MUTE &kp TAB   &kp Q     &mt UP W &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I     &kp O   &kp P    &kp LBKT  &kp RBKT  &kp BSLH                 &kp LEFT &kp C_AC_SEARCH &kp RIGHT 
                 &mt C_VOL_DN C_MUTE &kp CLCK  &mt LEFT A     &mt DOWN S &mt RIGHT D  &kp F  &kp G  &kp H  &kp J  &kp K     &kp L   &kp SEMI &kp SQT   &kp C_AC_SEARCH     &kp RET                  &kp END &kp DOWN &kp PG_DN 
                 &kp LSHFT    &kp LCTRL     &kp Z     &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &kp RALT     &kp RSHFT                          &kp C_AC_BACK &kp C_AC_FORWARD 
-                &mt SPACE LCMD    &kp SPACE &mt RET BSPC   &mo 1                                                                                                                    &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS
+                &mt LCMD SPACE    &kp SPACE &mt BSPC RET   &mo 1                                                                                                                    &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS
             >;
         };
 
